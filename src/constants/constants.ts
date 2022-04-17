@@ -1,0 +1,1 @@
+export const RANDOM_STRING_SEED = "abcdefghijklmnopqrstvwxyz" 

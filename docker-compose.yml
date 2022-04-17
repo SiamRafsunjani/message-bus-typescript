@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  database:
+    image: "postgres"
+    env_file:
+      - database.env
+    ports:
+      - '9955:5432'
+    expose:
+      - '9955'
+    volumes:
+      - db-data:/var/lib/postgresql/data/
+volumes:
+  db-data:
