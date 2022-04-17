@@ -5,3 +5,4 @@ A message Bus is a combination of a common data model, a common command set, and
 # Start commands
 1. npm install
 2. docker compose up -d
+4. export bus.sql into dockerized postgreSQL db (docker db credentials in database.env) 
